@@ -1,12 +1,10 @@
 # Final Project: Finch Robot Challenges
-
+MR AIELLO, README INFORMATION STARTS ON LINE 70
 ## Essential Question
 How can we apply object-oriented programming principles and Java concepts to create interactive, autonomous robot behaviors that solve real-world challenges?
 
 ## Project Overview
 In this project-based learning experience, you will program a Finch 2.0 robot to perform one of three challenges:
-1. Choreograph a dance routine (with movement, lights, and sound)
-2. Create an artistic drawing using the robot's movements
 3. Navigate a maze autonomously
 
 Your program must demonstrate your understanding of Java programming concepts from APCSA and object-oriented design principles while creating an engaging robot behavior.
@@ -19,7 +17,11 @@ Your program must demonstrate your understanding of Java programming concepts fr
 - Practice technical communication through presentations and documentation
 
 ## Timeline/Checklist
-
+- chose what type of project I want to do
+- took picture of maze map, researched maze algorithms
+- chose to hug the right wall
+- implemented if the finch detects light, turns right
+- recorded video, final complete
 ### Planning & Research
 - Choose your challenge: dance, drawing, or maze navigation
 - Explore the Finch API documentation
@@ -67,10 +69,18 @@ Your program must include at least 5 of these Java/OOP concepts:
 - GitHub repository with organized file structure
 - README.md file including:
   * Project description and objectives
+  - This project is a maze runner that utilizes an algorithm that hugs the right wall. It does so by utilizing turns and stopping when in front of a wall; in addition, another measure is added when we point a flashlight over the finch, the robot turns right, so we still have control and not completely autonomous
   * Description of design choices
+  - design implements some autonominity, it turns right when facing a wall, if there is still a wall after, makes a 180 degree turn and continues to go
+  - decided to use lights to stop after Mr aiello showcased the finch feature
+  - this is NOT a program that just relys on sequential programming
   * Challenges faced and solutions
+  - in vs code, i had to download powershell and figure out autosave, took a solid day
+  - in coding, the robot kept getting too close/too far away from the wall, so we had to make changes regarding the distance the robot detects to make a turn
   * Future enhancements
+  - if I had more time, i would implement lighting and a better stop call once the robot reaches the end.
   * Video or images of your robot in action (embedded or linked)
+  [![Video Title](assets/thumbnail.png)](https://youtube.com/shorts/rHZcKsGLmU8?si=kB1AKl0zjmzZSoYf)
 
 ## Project Rubric (16 points total)
 
