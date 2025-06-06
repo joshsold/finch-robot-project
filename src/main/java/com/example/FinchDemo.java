@@ -18,4 +18,4 @@ public class FinchDemo {
         myFinch.stopAll();
         myFinch.disconnect();
     }
-}
+}              
